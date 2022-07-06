@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    min-height: 100vh;
+}
+body h1{
+    display: flex;
+    justify-content: center;
+}
+#input-place{
+    color:black;
+    border: 3px solid violet;
+    border-radius: 5px;
+}
+#btn{
+    background-color: lightblue;
+    border: 3px solid violet;
+    border-radius: 9px;
+}
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
